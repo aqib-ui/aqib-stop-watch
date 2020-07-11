@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Stop watch</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 id="main">Stop Watch</h1>
+            </div>
+        </div>
+    </div>
+    <div class="cr" id="date">
+        text
+    </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12" id="inp" >
+                Enter Participant Name: 
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h1 id="min">Minuts</h1>
+            </div>
+            <div class="col-md-4">
+                <h1 id="sec">Seconds</h1>
+            </div>
+            <div class="col-md-4">
+                <h1 id="mili">MiliSeconds</h1>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h1 id="minu" class="new">0</h1>
+            </div>
+            <div class="col-md-4">
+                <h1 id="seco" class="new">0</h1>
+            </div>
+            <div class="col-md-4">
+                <h1 id="milisec" class="new">0</h1>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <button id="btnn" onclick="start()" >Start</button>
+            </div>
+            <div class="col-md-4">
+                <button onclick="stop()">Pause</button>
+            </div>
+            <div class="col-md-4">
+                <button onclick="reset()">Reset</button>
+            </div>
+        </div>
+    </div>
+   <audio src="ring.mp3" id="music" preload="auto"></audio>
+
+   <h1 id="aqib">Made By Aqib Rehman</h1>
+
+</body>
+<script src="app.js"></script>
+
+</html>

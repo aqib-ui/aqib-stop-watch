@@ -1,0 +1,141 @@
+body{
+    background-color: black;
+    text-align: center;
+}
+#main{
+    background-color: white;
+    color: black;
+    text-align: center;
+    margin-top: 4%;
+    padding: 1% 0 1% 0;
+    font-weight: bold;
+    border-radius: 8px;
+    border: 5px solid blueviolet;
+    
+}
+#min{
+    background-color: white;
+    color: black;
+    text-align: center;
+    margin-top: 4%;
+    padding: 1% 0 1% 0;
+    font-weight: bold;
+    border-radius: 8px;
+    border: 5px solid blueviolet;
+}
+#sec{
+    background-color: white;
+    color: black;
+    text-align: center;
+    margin-top: 4%;
+    padding: 1% 0 1% 0;
+    font-weight: bold;
+    border-radius: 8px;
+    border: 5px solid blueviolet;
+}
+#mili{
+    background-color: white;
+    color: black;
+    text-align: center;
+    margin-top: 4%;
+    padding: 1% 0 1% 0;
+    font-weight: bold;
+    border-radius: 8px;
+    border: 5px solid blueviolet;
+}
+button{
+    font-size: 40px;
+    font-weight: bold;
+    block-size: 70px;
+    inline-size: 170px;
+    margin-top: 4%;
+    padding: 1% 0 1% 0;
+    border-radius: 8px;
+    border: 5px solid blueviolet;
+}
+button:hover{
+    background-color: brown;
+}
+#minu{
+    background-color: violet;
+    color: black;
+    text-align: center;
+    margin-top: 4%;
+    padding: 1% 0 1% 0;
+    font-weight: bold;
+    border-radius: 8px;
+    border: 5px solid rgb(160, 28, 160);
+    box-shadow: 2px 2px 5px 4px rgb(160, 28, 160) inset;
+    padding: 3px;
+}
+#seco{
+    background-color: violet;
+    color: black;
+    text-align: center;
+    margin-top: 4%;
+    padding: 1% 0 1% 0;
+    font-weight: bold;
+    border-radius: 8px;
+    border: 5px solid rgb(160, 28, 160);
+    box-shadow: 2px 2px 5px 4px rgb(160, 28, 160) inset;
+    padding: 3px;
+}
+#milisec{
+    background-color: violet;
+    color: black;
+    text-align: center;
+    margin-top: 4%;
+    padding: 1% 0 1% 0;
+    font-weight: bold;
+    border-radius: 8px;
+    border: 5px solid rgb(160, 28, 160);
+    box-shadow: 2px 2px 5px 4px rgb(160, 28, 160) inset;
+    padding: 3px;
+    
+}
+#inp{
+    margin:0 auto;
+    border:2px solid rgb(160, 28, 160);
+    border-radius: 5px;
+    margin-top: 2%; 
+    font-size: 20px;
+    color: white;
+    background-color: violet;
+    font-weight: bold;
+    animation:blinkingText 0.8s infinite; 
+    box-shadow: 2px 2px 5px 4px rgb(160, 28, 160) inset;
+    padding: 3px;
+
+}
+.cr{
+    border:2px solid rgb(160, 28, 160);
+    border-radius: 5px;
+    color: white;
+    background-color: violet;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width: 60%;
+    margin:0 auto;
+    font-size: 25px;
+    animation:blinkingText 0.8s infinite; 
+    box-shadow: 2px 2px 5px 4px rgb(160, 28, 160) inset;
+    padding: 5px;
+    
+}
+
+@keyframes blinkingText{
+    0%{     color: #000;    }
+    49%{    color: #000; }
+    60%{    color: #000; }
+    99%{    color:transparent;  }
+    100%{   color: #000;    }
+}
+.new{
+    animation:blinkingText 0.8s infinite;
+}
+#aqib{
+    font-weight: bold;
+    margin-top: 2%;
+    float: right;
+    color: violet;
+}
